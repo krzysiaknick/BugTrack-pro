@@ -29,10 +29,28 @@ export default function Home() {
                 spaceBetween={0}
                 slidesPerView={3}
                 loop={true}
+                breakpoints={{
+
+
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 1000,
+                      },
+                    640: {
+                      slidesPerView: 2,
+                      spaceBetween: 500,
+                    },
+                    
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 0,
+                    },
+                  }}
                 navigation={{
                     nextEl: '.swiper-button-next',
                     prevEl: '.swiper-button-prev',
                 }} // Pass custom navigation buttons
+                
                 modules={[Navigation]} // Add Navigation module
                 style={{ padding: '1rem' }}
             >
@@ -63,5 +81,6 @@ const buttons = [
     { href: '/about', label: 'About', img: '/cardImages/question.png' },
     { href: '/contact', label: 'Contact', img: '/cardImages/contact.png' },
     { href: '/reactDevTools', label: 'React Dev Tools', img: '/cardImages/react.png' },
-    { href: '/portfolio', label: 'Portfolio', img: '/cardImages/portfolio.png' },
+    { href: '/consoleLog', label: '', img: '/cardImages/console-log.png' },
 ];
+
