@@ -4,7 +4,7 @@ export default function About() {
             <div className="containerBlocks">
                 <h1>About BugTrack Pro</h1>
             <p>This site is designed to showcase debugging techniques and tools in a React 
-                environment, using Next.js as the foundation. Whether you're a beginner or an 
+                environment, using Next.js as the foundation. Whether you are a beginner or an 
                 experienced developer, this project aims to provide practical examples of common 
                 bugs and the methods to resolve them effectively.</p>
                 </div>

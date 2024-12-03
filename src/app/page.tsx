@@ -8,7 +8,11 @@ import 'swiper/css/navigation';
 
 export default function Home() {
     return (
+
+        
+
         <div style={{ textAlign: 'center' }}>
+            
             <div className='home-page-headers'>
             <h1 className='home-header'>Welcome to BugTrack Pro!</h1>
             <p className='home-paragraph'>
@@ -16,6 +20,8 @@ export default function Home() {
                 <br />
                 about debugging in React:
             </p>
+            <br />
+            <br />
             <br />
             </div>
             {/* Custom navigation buttons */}
@@ -26,19 +32,18 @@ export default function Home() {
 
             {/* Swiper Component */}
             <Swiper
-                spaceBetween={0}
-                slidesPerView={3}
+                
                 loop={true}
                 breakpoints={{
 
 
                     320: {
                         slidesPerView: 1,
-                        spaceBetween: 1000,
+                        spaceBetween: 300,
                       },
                     640: {
                       slidesPerView: 2,
-                      spaceBetween: 500,
+                      spaceBetween: 100,
                     },
                     
                     1024: {
