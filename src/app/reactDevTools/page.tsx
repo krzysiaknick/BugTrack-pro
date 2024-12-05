@@ -25,6 +25,23 @@ export default function react() {
         </p>
 
         <Image src="/images/devtool.png" alt="components" width={1200} height={300} />
+
+              <div>
+                <br /><br />
+            <h1 className="home-header">Watch the video below for more info</h1>
+            <br />
+            <div>
+              <iframe className='containerBlocks'
+                width="1000"
+                height="500"
+                src="https://www.youtube.com/watch?v=rb1GWqCJid4&t=198s&ab_channel=NetNinja"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+    </div>
       </div>
     </div>
   );

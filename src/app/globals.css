@@ -93,7 +93,7 @@ footer {
 
 .containerBlocks {
   flex: 1;
-  max-width: 1000px; /* Limit the maximum width */
+  max-width: 1200px; /* Limit the maximum width */
   margin: 0 auto; /* Center horizontally */
   padding: 1rem; /* Add some padding inside the container */
   /*background-color: rgba(2, 57, 102, 0.7);  Optional: Background color for content */
@@ -106,6 +106,7 @@ footer {
 }
 
 
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -115,6 +116,11 @@ footer {
   background-color: #023966;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
 }
 
 .logo {
@@ -135,33 +141,6 @@ footer {
 .nav-links a:hover {
   color: #ffcb05;
 }
-
-
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #282c34;
-  color: white;
-}
-
-.footer p {
-  font-size: 0.9rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-  }
-
-  .main-content {
-      padding: 1rem;
-  }
-}
-
 
 
 
@@ -196,8 +175,63 @@ footer {
   text-align: center;
   font-size: 3rem;
   font-weight: 600;
+  background-color: #0f4169;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #0f4169, #100542);
+  margin-bottom: 40px;
 }
+
+
+.log-button{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+ 
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #0f4169, #100542);
+  margin-bottom: 40px;
+}
+
+.log-button:hover{
+  color: rgb(70, 141, 173);
+  transform: scale(.99);
+}
+
+
 
 .home-paragraph{
   font-size: 1.3rem;
+  padding-top: 0%;
+  padding-bottom: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.footerpad{
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 1rem;
+}
+
+p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 1200;
+  height: auto;
+  align-items: center;
+}
+
+.code-blocks{
+  text-align: left;
 }

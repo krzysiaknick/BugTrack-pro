@@ -20,9 +20,7 @@ export default function Home() {
                 <br />
                 about debugging in React:
             </p>
-            <br />
-            <br />
-            <br />
+            
             </div>
             {/* Custom navigation buttons */}
             <div className="swiper-navigation">

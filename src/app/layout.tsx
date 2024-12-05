@@ -7,6 +7,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header>
           <nav className="navbar">
+              
             <div className="logo">BugTrackPro</div>
             <ul className="nav-links">
               
@@ -19,9 +20,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </ul>
           </nav>
         </header>
+        <br /><br />
         <main className="container">{children}</main>
         <footer>
-          <p>&copy; 2024 Nicholas Krzysiak</p>
+          <p className='footerpad'>&copy; 2024 Nicholas Krzysiak</p>
         </footer>
       </body>
     </html>

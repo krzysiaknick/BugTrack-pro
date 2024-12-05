@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div >
             <div className="containerBlocks">
-                <h1>About BugTrack Pro</h1>
+                <h1 className="home-header">About BugTrack Pro</h1>
             <p>This site is designed to showcase debugging techniques and tools in a React 
                 environment, using Next.js as the foundation. Whether you are a beginner or an 
                 experienced developer, this project aims to provide practical examples of common 
@@ -11,7 +11,7 @@ export default function About() {
         
 
             <div className="containerBlocks">
-                <h1>Purpose of the Project
+                <h1 className="home-header">Purpose of the Project
             </h1>
 
             <p>Debugging is a critical skill in software development, especially when working with modern JavaScript frameworks like React.
@@ -22,14 +22,14 @@ export default function About() {
             </div>
 
             <div className="containerBlocks">
-                <h1>Features</h1>
+                <h1 className="home-header">Features</h1>
                 <p>Features Placeholder</p>
 
             </div>
 
 
             <div className="containerBlocks">
-                <h1>Why Next.js?
+                <h1 className="home-header">Why Next.js?
                 </h1>
                 <p>This site leverages Next.js for its powerful features, including:
                     <li>Server-Side Rendering (SSR) and Static Site Generation (SSG) for performance optimization.</li>
