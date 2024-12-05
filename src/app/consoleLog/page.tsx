@@ -56,9 +56,9 @@ export default SearchBar;
             <div className='containerBlocks'>
             <h1 className="home-header">console.log()</h1>
             <p> console.log is a built-in function in JavaScript and TypeScript used to print messages, values, or debugging 
-                information to the browser's console or terminal. It is primarily used by developers to inspect the output of 
+                information to the browser&apos;s console or terminal. It is primarily used by developers to inspect the output of 
                 their code, track variable values, and debug issues during development. By passing data or expressions to 
-                `console.log`, developers can gain real-time insights into the behavior of their scripts, making it an 
+                &apos;console.log&apos;, developers can gain real-time insights into the behavior of their scripts, making it an 
                 essential tool for troubleshooting and understanding program flow.</p>
                 
                 <Image src="/images/consolelog.png" alt="chromestore" className='img' width={1200} height={300} />
