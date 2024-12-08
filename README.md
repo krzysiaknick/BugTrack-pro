@@ -1,4 +1,4 @@
-##BugTrackPro
+## BugTrackPro
 BugTrackPro is a website deployed on Azure that uses React and Next.js.
 This site is intended to inform the user of numerous ways to debug their code in a React environment
 
