@@ -81,9 +81,12 @@ export default function Home() {
 }
 
 const buttons = [
+    
+    { href: '/reactDevTools', label: 'React Dev Tools', img: '/cardImages/react.png' },
+    { href: '/consoleLog', label: 'Console.log', img: '/cardImages/console.png' },
+    { href: '/nextDevOverlay', label: 'Next.js Dev', img: '/cardImages/next-js.png' },
+    { href: '/ESLint', label: 'ESLint', img: '/cardImages/eslint.png' },
     { href: '/about', label: 'About', img: '/cardImages/question.png' },
     { href: '/contact', label: 'Contact', img: '/cardImages/contact.png' },
-    { href: '/reactDevTools', label: 'React Dev Tools', img: '/cardImages/react.png' },
-    { href: '/consoleLog', label: '', img: '/cardImages/console-log.png' },
 ];
 

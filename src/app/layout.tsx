@@ -6,11 +6,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <header>
-          <nav className="navbar">
-              
+          <nav className="navbar" aria-label="Main navigation">
             <div className="logo">BugTrackPro</div>
             <ul className="nav-links">
-              
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -21,12 +19,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </nav>
         </header>
         <br /><br />
-        <main className="container">{children}</main>
+        <main className="container" style={{ marginTop: '20px' }}>
+          {children}
+        </main>
         <footer>
-          <p className='footerpad'>&copy; 2024 Nicholas Krzysiak</p>
+          <p className="footerpad">&copy; 2024 Nicholas Krzysiak</p>
         </footer>
       </body>
     </html>
   );
 }
-

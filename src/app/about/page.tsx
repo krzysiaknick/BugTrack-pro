@@ -21,11 +21,7 @@ export default function About() {
             Help developers learn how to identify and fix issues in a structured and efficient way.</p>
             </div>
 
-            <div className="containerBlocks">
-                <h1 className="home-header">Features</h1>
-                <p>Features Placeholder</p>
-
-            </div>
+           
 
 
             <div className="containerBlocks">

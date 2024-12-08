@@ -153,8 +153,8 @@ footer {
   background-color: #0f4169;
   color: rgb(255, 255, 255);
   border-radius: 15px;
-  font-size: 3rem; /* Adjust font size to fit inside the button */
-  font-weight: 600;
+  font-size: 0;
+  font-weight: 800;
   text-align: center;
   line-height: 100px; /* Matches height to vertically center text */
   cursor: pointer;
@@ -166,8 +166,13 @@ footer {
   font-family: 'Inter', sans-serif;
 }
 
+
+
+
 .button:hover {
   background-color: #005a9e;
+  font-size: 3rem;
+  
 }
 
 
@@ -234,4 +239,16 @@ img {
 
 .code-blocks{
   text-align: left;
+
+}
+
+.instructions {
+  font-weight: 800;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.imageBlock{
+  display: flex;
+  align-items: center;
 }
